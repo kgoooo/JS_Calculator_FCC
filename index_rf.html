@@ -4,9 +4,10 @@
 		<title>Calculator - Kristen Goehringer</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="style.css" rel="stylesheet">
+		<link href="style_rf.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 		<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/lcd" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<script
 		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
@@ -16,6 +17,10 @@
 	<body>
 		<div class="container">
 			<div class="calc">
+				<div class="logo-box">
+					<p id="logo">Calc-O-Matic</p>
+					<div class="solar"><span class="periods">...</span>|<span class="periods">.....</span>|<span class="periods">.....</span>|<span class="periods">...</span></div>
+				</div>
 				<div class="display">
 					<p id="display"></p>
 				</div>
@@ -23,35 +28,35 @@
 					<div class="row-1 row">
 						<button id="clear">CL</button>
 						<button id="delete">DEL</button>
-						<button id="divide">/</button>
-						<button id="multiply">*</button>
+						<button class="btn operator" id="/">/</button>
+						<button class="btn operator" id="*">*</button>
 					</div>
 					<div class="row-2 row">
-						<button id="seven">7</button>
-						<button id="eight">8</button>
-						<button id="nine">9</button>
-						<button id="minus">-</button>
+						<button class="btn" id="7">7</button>
+						<button class="btn" id="8">8</button>
+						<button class="btn" id="9">9</button>
+						<button class="btn operator" id="-">-</button>
 					</div>
 					<div class="row-3 row">
-						<button id="four">4</button>
-						<button id="five">5</button>
-						<button id="six">6</button>
-						<button id="plus">+</button>
+						<button class="btn" id="4">4</button>
+						<button class="btn" id="5">5</button>
+						<button class="btn" id="6">6</button>
+						<button class="btn operator" id="+">+</button>
 					</div>
 					<div class="row-4 row">
-						<button id="one">1</button>
-						<button id="two">2</button>
-						<button id="three">3</button>
+						<button class="btn" id="1">1</button>
+						<button class="btn" id="2">2</button>
+						<button class="btn" id="3">3</button>
 						<button id="equals">=</button>
 					</div>
 					<div class="row-5 row">
-						<button id="zero">0</button>					
-						<button id="dot">.</button>
+						<button class="btn zero" id="0">0</button>					
+						<button class="btn dot" id=".">.</button>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<script src="script.js"></script>
+		<script src="script_rf.js"></script>
 	</body>
 </html>
