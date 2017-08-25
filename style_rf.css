@@ -5,6 +5,7 @@ body {
 	height: 100vh;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
+	background-attachment: fixed;
 }
 
 p {
@@ -80,6 +81,7 @@ div .row-5 {
 	margin-bottom: 20px;
 	margin-top: 20px;
 	color: #555;
+	overflow: hidden;
 }
 
 .row {
@@ -149,6 +151,11 @@ div .row-5 {
 #clear:active,
 #delete:active {
 	box-shadow: 0 3px 0 #00544B;	
+}
+
+#clear:hover,
+#delete:hover {
+	background: #EE5E5E;
 }
 
 #logo {
