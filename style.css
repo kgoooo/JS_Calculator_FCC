@@ -1,0 +1,94 @@
+body {
+	background: #000000;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	margin: 10px;
+	text-align: right;
+}
+
+button {
+	width: 45px;
+	height: 45px;
+	margin: 5px;
+	background: none;
+	border: 2px solid #777;
+	border-bottom: 5px solid #777;
+	border-top: 1px solid #888;
+	border-radius: 3px;
+	color: #555;
+	outline: none;
+	cursor: pointer;
+	font-size: 16px;
+	text-align: center;
+}
+
+button:hover {
+	background: #E6E5E3;
+}
+
+button:active{
+	border-top: 4px solid #777;
+	border-bottom: 1px solid #888;
+	border-left: 2px solid #777;
+	border-right: 2px solid #777;
+	color: #222;
+}
+
+div .row-1,
+div .row-2,
+div .row-3,
+div .row-4,
+div .row-5 {
+	display: flex;
+	justify-content: center;
+ }
+
+div .row-4 {
+	height: 55px;
+}
+
+div .row-5 {
+	justify-content: flex-start
+}
+
+.calc {
+	border: 1px solid #888;
+	width: 250px;
+	padding: 15px;
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	border-radius: 5px;
+	margin: 40px auto 30px auto;
+}
+
+.display {
+	border: 3px solid #727272;
+	background: #EFEEEA;	
+	border-radius: 5px;	
+	padding: 5px;
+	height: 35px;
+	margin-bottom: 15px;
+	color: #555;
+	border-top: 7px solid #888;
+	border-bottom: 1px solid #888;
+}
+
+#equals {
+	height: 100px;
+}
+
+#zero {
+	width: 100px;
+}
+
+.row {
+	 display: inline-block
+}
+
